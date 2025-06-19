@@ -17,7 +17,7 @@ spec:
       - name: ghcr-secret
       containers:
       - name: grade-submission-api
-        image: PLACEHOLDER_IMAGE
+        image: 166941686774.dkr.ecr.us-west-1.amazonaws.com/:7285daba3f4301e03bee8a9b31f592e94fe4263a
         ports:
         - containerPort: 3000
         resources:
